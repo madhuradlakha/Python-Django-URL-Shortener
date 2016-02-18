@@ -1,0 +1,10 @@
+<p> Short Link: <a href="{{ object.short_url }}">www.madhuradlakha.com{{ object.short_url }}</a>
+<p> Original Link: <a href="{{ object.url }}">{{ object.url }}</a>
+<br><br>
+<button onclick="goBack()">Go Back</button>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
